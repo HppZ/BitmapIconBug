@@ -18,7 +18,7 @@
         <Setter Property="Template">
             <Setter.Value>
                 <ControlTemplate TargetType="ToggleButton">
-                    <ContentPresenter x:Name="ContentPresenter" AutomationProperties.AccessibilityView="Raw" 
+                    <ContentPresenter x:Name="ContentPresenter" AutomationProperties.AccessibilityView="Raw" Foreground="{TemplateBinding Foreground}"
                                               Background="{TemplateBinding Background}" BorderThickness="{TemplateBinding BorderThickness}" BorderBrush="{TemplateBinding BorderBrush}" ContentTemplate="{TemplateBinding ContentTemplate}" Content="{TemplateBinding Content}" 
                                               ContentTransitions="{TemplateBinding ContentTransitions}" HorizontalContentAlignment="{TemplateBinding HorizontalContentAlignment}" Padding="{TemplateBinding Padding}" VerticalContentAlignment="{TemplateBinding VerticalContentAlignment}">
                         <ContentPresenter.Resources>
