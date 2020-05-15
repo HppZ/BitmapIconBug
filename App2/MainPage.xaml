@@ -14,7 +14,7 @@
             <ColumnDefinition></ColumnDefinition>
         </Grid.ColumnDefinitions>
 
-        <Grid Grid.Column="0" Width="500" Height="500" Background="Transparent">
+        <Grid Grid.Column="0" Width="500" Height="500" Background="Transparent" BorderBrush="Gray" BorderThickness="1">
             <app2:CustomControl1 Background="AntiqueWhite" Width="300" Height="300"></app2:CustomControl1>
         </Grid>
 
